@@ -1,0 +1,5 @@
+train: /content/drive/MyDrive/BloodcellDetection/BCCD/images/train
+val:   /content/drive/MyDrive/BloodcellDetection/BCCD/images/val
+is_coco: False
+nc : 3
+names: ['Platelets', 'RBC', 'WBC']
