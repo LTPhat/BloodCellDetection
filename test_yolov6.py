@@ -1,7 +1,7 @@
 from my_yolov6 import my_yolov6
 import cv2
 
-yolov6_model = my_yolov6("D:\BloodcellDetection\BCCD\YOLOv6\yolov6s.pt","cpu","D:\BloodcellDetection\BCCD\YOLOv6\data\bccd.yaml", 640, True)
+yolov6_model = my_yolov6("D:\BCCD_YOLO\yolov6s.pt","cpu","D:\BCCD_YOLO\YOLOv6\data\coco.yaml", 640, True)
 
 
 # define a video capture object

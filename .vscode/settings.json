@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "./YOLOv6",
+        "./YOLOv6",
+        "D:/BCCD_YOLO/YOLOv6/yolov6/utils"
+    ]
+}

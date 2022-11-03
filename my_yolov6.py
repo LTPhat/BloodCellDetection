@@ -2,12 +2,10 @@ import torch
 import numpy as np
 import math
 import cv2
-
-
-from yolov6.utils.events import load_yaml
-from yolov6.layers.common import DetectBackend
-from yolov6.data.data_augment import letterbox
-from yolov6.utils.nms import non_max_suppression
+from YOLOv6.yolov6.utils.events import load_yaml
+from YOLOv6.yolov6.layers.common import DetectBackend
+from YOLOv6.yolov6.data.data_augment import letterbox
+from YOLOv6.yolov6.utils.nms import non_max_suppression
 
 class my_yolov6():
     def __init__(self, weights, device, yaml, img_size, half):
@@ -89,7 +87,7 @@ class my_yolov6():
 
     def model_switch(self, model, img_size):
         ''' Model switch to deploy status '''
-        from yolov6.layers.common import RepVGGBlock
+        from YOLOv6.yolov6.layers.common import RepVGGBlock
         for layer in model.modules():
             if isinstance(layer, RepVGGBlock):
                 layer.switch_to_deploy()
