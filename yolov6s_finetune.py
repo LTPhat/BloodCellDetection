@@ -1,7 +1,7 @@
 # YOLOv6s model
 model = dict(
     type='YOLOv6s',
-    pretrained='/content/drive/MyDrive/BloodcellDetection/BCCD/YOLOv6/runs/train/exp5/weights/best_ckpt.pt',
+    pretrained='/content/drive/MyDrive/BloodcellDetection/BCCD/YOLOv6/runs/train/exp6/weights/best_ckpt.pt',
     depth_multiple=0.33,
     width_multiple=0.50,
     backbone=dict(
