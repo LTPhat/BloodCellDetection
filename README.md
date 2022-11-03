@@ -270,7 +270,7 @@ python tools/infer.py --weights output_dir/name/weights/best_ckpt.pt --source im
 ![alt text](https://github.com/LTPhat/BloodCellDetection/blob/main/runs/inference/exp/BloodImage_00269.jpg)
 
 
-# Reference
+## Reference
 
 [1] BCCD Dataset is a small-scale dataset for blood cells detection, https://github.com/Shenggan/BCCD_Dataset.
 
